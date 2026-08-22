@@ -13,6 +13,12 @@ export default defineConfig({
 
   strictTokens: false,
 
+  staticCss: {
+    recipes: {
+      button: [{ variant: ["solid", "ghost"], size: ["sm", "md"] }],
+    },
+  },
+
   theme: {
     extend: {
       tokens: {

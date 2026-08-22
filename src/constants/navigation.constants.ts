@@ -9,8 +9,8 @@ export const NAV_LINKS: readonly NavLink[] = [
   { label: "education center", href: "#education-center" },
 ];
 
-export const FIND_HELP_LABEL = "find help";
+export const FIND_HELP_LABEL = "Find help";
 export const FIND_HELP_HREF = "#find-help";
 
-export const GET_STARTED_LABEL = "get started";
+export const GET_STARTED_LABEL = "Get started";
 export const GET_STARTED_HREF = "#get-started";

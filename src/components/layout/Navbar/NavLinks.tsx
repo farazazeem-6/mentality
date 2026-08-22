@@ -18,7 +18,7 @@ export function NavLinks({ className, onLinkClick }: NavLinksProps) {
             className ??
             css({
               fontSize: "sm",
-              textTransform: "lowercase",
+              textTransform: "capitalize",
               color: "ink.900",
               _hover: { color: "ink.500" },
               transition: "color 0.2s ease",

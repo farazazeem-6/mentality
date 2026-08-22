@@ -37,8 +37,12 @@ export function SearchPill() {
           fontFamily: "sans",
           fontSize: "sm",
           color: "ink.900",
-          py: "2",
+          py: "2.5",
+          px: "2",
+          borderRadius: "4px",
+          transition: "background 0.2s ease",
           _placeholder: { color: "ink.500" },
+          _focus: { bg: "ink.900/[0.03]" },
         })}
       />
       <button

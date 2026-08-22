@@ -40,7 +40,7 @@ export function MobileDrawer({ state, onLinkClick }: MobileDrawerProps) {
               onLinkClick={onLinkClick}
               className={css({
                 fontSize: "md",
-                textTransform: "lowercase",
+                textTransform: "capitalize",
                 color: "ink.900",
               })}
             />

@@ -31,8 +31,8 @@ export const buttonRecipe = defineRecipe({
     size: {
       sm: {
         fontSize: "sm",
-        px: "3",
-        py: "1.5",
+        px: "7",
+        py: "3",
       },
       md: {
         fontSize: "sm",

@@ -1,0 +1,1 @@
+export { PatientResources } from "./PatientResources";

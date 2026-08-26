@@ -1,0 +1,1 @@
+export { EducationCenter } from "./EducationCenter";

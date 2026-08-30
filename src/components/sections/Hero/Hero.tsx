@@ -32,7 +32,7 @@ export function Hero() {
           display: "grid",
           gridTemplateColumns: "repeat(12, minmax(0, 1fr))",
           columnGap: { base: "4", md: "8" },
-          pt: { base: "32", sm: "40" },
+          pt: { base: "24", sm: "28" },
         })}
       >
         <div

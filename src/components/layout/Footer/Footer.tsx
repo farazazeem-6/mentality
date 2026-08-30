@@ -7,9 +7,11 @@ import {
   FOOTER_COLUMN_SUPPORT_LABEL,
   FOOTER_COLUMN_SUPPORT_LINKS,
   FOOTER_COPYRIGHT,
+  FOOTER_SOCIAL_LINKS,
   FOOTER_TAGLINE,
 } from "@/constants/footer.constants";
 import { FooterLinkColumn } from "./FooterLinkColumn";
+import { FooterSocialLinks } from "./FooterSocialLinks";
 
 export function Footer() {
   return (
@@ -58,6 +60,7 @@ export function Footer() {
           >
             {FOOTER_TAGLINE}
           </p>
+          <FooterSocialLinks links={FOOTER_SOCIAL_LINKS} />
         </div>
 
         <div

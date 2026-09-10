@@ -26,3 +26,5 @@ export const FOOTER_SOCIAL_LINKS: readonly SocialLink[] = [
 ];
 
 export const FOOTER_COPYRIGHT = "© 2024 mentality. All rights reserved.";
+
+export * from "@/constants/site.constants";

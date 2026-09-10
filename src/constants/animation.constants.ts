@@ -1,5 +1,7 @@
 import type { Transition, Variants } from "motion/react";
 
+export * from "@/constants/site.constants";
+
 export const FADE_UP_TRANSITION: Transition = {
   duration: 0.8,
 };

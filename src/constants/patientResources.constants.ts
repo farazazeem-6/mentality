@@ -1,6 +1,7 @@
 import type { ResourceLink, StatItem } from "@/types/section.types";
 
-export const PATIENT_RESOURCES_EYEBROW = "patient resources";
+export * from "@/constants/site.constants";
+
 export const PATIENT_RESOURCES_HEADING_ACCENT = "Everything you need,";
 export const PATIENT_RESOURCES_HEADING_MUTED = "in one place.";
 export const PATIENT_RESOURCES_DESCRIPTION =

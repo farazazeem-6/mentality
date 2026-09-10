@@ -1,11 +1,7 @@
 import { SectionIcon } from "@/types/section.types";
 import type { ServiceCard } from "@/types/section.types";
 
-export const SERVICE_EYEBROW = "service";
-export const SERVICE_HEADING_ACCENT = "Support, shaped";
-export const SERVICE_HEADING_MUTED = "around how you actually feel.";
-export const SERVICE_DESCRIPTION =
-  "From a quick check-in to ongoing guidance, mentality meets you where you are with tools built for real, everyday mental wellbeing.";
+export * from "@/constants/site.constants";
 
 export const SERVICE_CARDS: readonly ServiceCard[] = [
   {

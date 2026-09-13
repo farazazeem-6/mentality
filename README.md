@@ -1,75 +1,91 @@
-# React + TypeScript + Vite
+# mėntality
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern mental health and wellbeing platform providing resources, support, and guidance to help you manage your mental wellbeing.
 
-Currently, two official plugins are available:
+## About
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+mėntality is a comprehensive mental health platform built with React, TypeScript, and Vite. It offers a suite of tools and resources designed to support mental health awareness and personal wellbeing.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **AI Companion**: Chat with our AI assistant anytime you need to think out loud
+- **Guided Plans**: Personalized routines that adapt to your changing needs
+- **Community Circles**: Join moderated groups with people navigating similar experiences
+- **Crisis Support**: Fast access to real support, day or night, when you need it most
+- **Patient Resources**: Comprehensive information and tools for mental health management
+- **Education Center**: Learn more about mental health topics and wellbeing strategies
+- **Responsive Design**: Fully optimized for mobile, tablet, and desktop devices
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **Frontend**: React 19, TypeScript
+- **Build Tool**: Vite
+- **Styling**: Panda CSS
+- **Animation**: Motion (Framer Motion)
+- **Code Quality**: ESLint, TypeScript strict mode
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Getting Started
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+### Prerequisites
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- Node.js (v16 or higher)
+- pnpm (recommended) or npm
 
+### Installation
+
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   pnpm install
+   ```
+
+### Development
+
+Start the development server with hot module replacement:
+
+```bash
+pnpm dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### Build
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Build the project for production:
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
+```bash
+pnpm build
 ```
+
+### Preview
+
+Preview the production build:
+
+```bash
+pnpm preview
+```
+
+### Linting
+
+Run ESLint to check code quality:
+
+```bash
+pnpm lint
+```
+
+## Project Structure
+
+- `src/components/` - Reusable UI components
+- `src/constants/` - Application constants and configurations
+- `src/types/` - TypeScript type definitions
+- `src/styles/` - Panda CSS recipes and styling
+- `public/` - Static assets
+
+## Architecture
+
+The project follows a professional, scalable architecture with:
+
+- **Component-based** organization with reusable UI components
+- **Feature-based** folder structure for maintainability
+- **Type-safe** TypeScript with strict types throughout
+- **Separation of concerns** between UI, business logic, and data
+- **Responsive design** for all screen sizes
+- **Accessibility** best practices with semantic HTML

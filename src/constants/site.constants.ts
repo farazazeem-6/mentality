@@ -14,13 +14,14 @@ export const NAV_LINKS: readonly NavLink[] = [
   { label: "patient resources", href: "#patient-resources" },
   { label: "about us", href: "#about-us" },
   { label: "education center", href: "#education-center" },
+  { label: "contact us", href: "#contact-us" },
 ];
 
 export const FIND_HELP_LABEL = "Find help";
-export const FIND_HELP_HREF = "#find-help";
+export const FIND_HELP_HREF = "#contact-us";
 
 export const GET_STARTED_LABEL = "Get started";
-export const GET_STARTED_HREF = "#get-started";
+export const GET_STARTED_HREF = "#contact-us";
 
 export const FOOTER_TAGLINE = "Information and resources to help you manage your mental wellbeing.";
 
@@ -193,3 +194,20 @@ export const DRAWER_TRANSITION: Transition = {
   duration: 0.35,
   ease: [0.16, 1, 0.3, 1],
 };
+
+export const CONTACT_US_EYEBROW = "contact us";
+export const CONTACT_US_HEADING_ACCENT = "Need support or just";
+export const CONTACT_US_HEADING_MUTED = "want to ask a question?";
+export const CONTACT_US_DESCRIPTION =
+  "Tell us what you're looking for. We’ll help you find the right next step, the right resources, and the right support for your situation.";
+
+export const CONTACT_US_PRIMARY_ACTION_LABEL = "Email the team";
+export const CONTACT_US_PRIMARY_ACTION_HREF = "mailto:hello@mentality.com";
+export const CONTACT_US_SECONDARY_ACTION_LABEL = "Call us";
+export const CONTACT_US_SECONDARY_ACTION_HREF = "tel:+18005550199";
+
+export const CONTACT_US_EMAIL = "hello@mentality.com";
+export const CONTACT_US_EMAIL_HREF = "mailto:hello@mentality.com";
+export const CONTACT_US_PHONE = "+1 (800) 555-0199";
+export const CONTACT_US_PHONE_HREF = "tel:+18005550199";
+export const CONTACT_US_HOURS = "Mon–Fri · 9am–6pm ET";

@@ -6,6 +6,7 @@ import { Service } from "@/components/sections/Service";
 import { PatientResources } from "@/components/sections/PatientResources";
 import { AboutUs } from "@/components/sections/AboutUs";
 import { EducationCenter } from "@/components/sections/EducationCenter";
+import { ContactUs } from "@/components/sections/ContactUs";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <PatientResources />
         <AboutUs />
         <EducationCenter />
+        <ContactUs />
       </main>
       <Footer />
     </div>

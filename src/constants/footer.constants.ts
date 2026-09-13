@@ -12,8 +12,8 @@ export const FOOTER_COLUMN_EXPLORE_LINKS: readonly NavLink[] = [
 
 export const FOOTER_COLUMN_SUPPORT_LABEL = "Support";
 export const FOOTER_COLUMN_SUPPORT_LINKS: readonly NavLink[] = [
-  { label: "find help", href: "#find-help" },
-  { label: "crisis line", href: "#crisis-line" },
+  { label: "find help", href: "#contact-us" },
+  { label: "crisis line", href: "tel:+18005550199" },
   { label: "contact us", href: "#contact-us" },
 ];
 

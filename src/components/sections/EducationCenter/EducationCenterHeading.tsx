@@ -2,7 +2,7 @@ import { motion } from "motion/react";
 import { css, cx } from "styled-system/css";
 import { button } from "styled-system/recipes";
 import { FADE_UP_TRANSITION, FADE_UP_VARIANTS } from "@/constants/animation.constants";
-import { ButtonVariant, ButtonSize } from "@/types/button.types";
+import { ButtonVariant, ButtonSize } from "@/types/button";
 import {
   EDUCATION_CENTER_DESCRIPTION,
   EDUCATION_CENTER_EYEBROW,

@@ -1,6 +1,6 @@
 import type { Transition, Variants } from "motion/react";
 
-import { SocialPlatform, type NavLink, type SocialLink } from "@/types/navigation.types";
+import { SocialPlatform, type NavLink, type SocialLink } from "@/types/navigation";
 import type { ArticleCard, ResourceLink, ServiceCard, StatItem } from "@/types/section.types";
 import { SectionIcon } from "@/types/section.types";
 

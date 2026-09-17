@@ -1,5 +1,5 @@
 import { css } from "styled-system/css";
-import type { NavLink } from "@/types/navigation.types";
+import type { NavLink } from "@/types/navigation";
 
 type FooterLinkColumnProps = {
   readonly label: string;

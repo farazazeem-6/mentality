@@ -1,4 +1,4 @@
-import type { NavLink } from "@/types/navigation.types";
+import type { NavLink } from "@/types/navigation";
 
 export const BRAND_NAME = "mėntality";
 

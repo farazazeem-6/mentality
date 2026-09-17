@@ -1,4 +1,4 @@
-import { SocialPlatform, type NavLink, type SocialLink } from "@/types/navigation.types";
+import { SocialPlatform, type NavLink, type SocialLink } from "@/types/navigation";
 
 export const FOOTER_TAGLINE = "Information and resources to help you manage your mental wellbeing.";
 

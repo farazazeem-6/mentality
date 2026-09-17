@@ -1,7 +1,7 @@
 import type { ButtonHTMLAttributes, ReactNode } from "react";
 import { cx } from "styled-system/css";
 import { button } from "styled-system/recipes";
-import { ButtonSize, ButtonVariant } from "@/types/button.types";
+import { ButtonSize, ButtonVariant } from "@/types/button";
 
 type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & {
   readonly variant?: ButtonVariant;

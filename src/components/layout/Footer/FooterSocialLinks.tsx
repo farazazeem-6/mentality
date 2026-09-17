@@ -3,7 +3,7 @@ import { FacebookIcon } from "@/assets/icons/FacebookIcon";
 import { InstagramIcon } from "@/assets/icons/InstagramIcon";
 import { LinkedInIcon } from "@/assets/icons/LinkedInIcon";
 import { TwitterIcon } from "@/assets/icons/TwitterIcon";
-import { SocialPlatform, type SocialLink } from "@/types/navigation.types";
+import { SocialPlatform, type SocialLink } from "@/types/navigation";
 
 type FooterSocialLinksProps = {
   readonly links: readonly SocialLink[];

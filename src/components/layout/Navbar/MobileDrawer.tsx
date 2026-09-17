@@ -1,7 +1,7 @@
 import { AnimatePresence, motion } from "motion/react";
 import { css } from "styled-system/css";
 import { DRAWER_TRANSITION } from "@/constants/animation.constants";
-import { DrawerState } from "@/types/navigation.types";
+import { DrawerState } from "@/types/navigation";
 import { NavLinks } from "./NavLinks";
 
 type MobileDrawerProps = {

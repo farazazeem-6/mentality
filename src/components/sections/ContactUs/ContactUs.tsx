@@ -18,7 +18,7 @@ import {
   CONTACT_US_SECONDARY_ACTION_HREF,
   CONTACT_US_SECONDARY_ACTION_LABEL,
 } from "@/constants/site.constants";
-import { ButtonSize, ButtonVariant } from "@/types/button.types";
+import { ButtonSize, ButtonVariant } from "@/types/button";
 
 const contactItems = [
   { label: "Email", value: CONTACT_US_EMAIL, href: CONTACT_US_EMAIL_HREF },

@@ -3,8 +3,8 @@ import { css, cx } from "styled-system/css";
 import { CloverIcon } from "@/assets/icons/CloverIcon";
 import { ArrowRightIcon } from "@/assets/icons/ArrowRightIcon";
 import { button } from "styled-system/recipes";
-import { ButtonSize, ButtonVariant } from "@/types/button.types";
-import { DrawerState } from "@/types/navigation.types";
+import { ButtonSize, ButtonVariant } from "@/types/button";
+import { DrawerState } from "@/types/navigation";
 import {
   BRAND_NAME,
   FIND_HELP_HREF,

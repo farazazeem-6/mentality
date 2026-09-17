@@ -1,6 +1,6 @@
 import { motion } from "motion/react";
 import { css } from "styled-system/css";
-import { DrawerState } from "@/types/navigation.types";
+import { DrawerState } from "@/types/navigation";
 
 type HamburgerToggleProps = {
   readonly state: DrawerState;
